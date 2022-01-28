@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javacript Popup Modal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="contact">
+      <div class="overlay overlay-background hidden"></div>
+      <div class="section-heading">
+        <h1>Ready to elevate your business. Get started!</h1>
+      </div>
+      <button class="btn get-started">Get started</button>
+      <span class="tiny">Press Enter to get started</span>
+      <div class="modal hidden">
+        <p class="close btn-close">&times</p>
+        <form>
+          <head>
+            <h2>Get started</h2>
+            <p>Enter your details below to get started</p>
+          </head>
+          <input type="text" placeholder="Enter your name" />
+          <input type="email" placeholder="Enter your email" />
+          <input type="submit" value="Get Started" class="btn" />
+          <footer>
+            <span class="tiny"
+              >We don't sell your information. Read our
+              <a href="#">privacy policy</a></span
+            >
+          </footer>
+        </form>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
